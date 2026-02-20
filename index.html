@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <h1>Advanced Task Manager</h1>
+            <button id="toggleTheme">Toggle Dark/Light</button>
+        </header>
+
+        <form id="taskForm">
+            <input type="hidden" id="taskId">
+            <input type="text" id="title" placeholder="Task Title" required>
+            <input type="text" id="category" placeholder="Category" required>
+            <input type="date" id="dueDate" required>
+            <select id="priority">
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+            <button type="submit">Save Task</button>
+        </form>
+
+        <div class="filters">
+            <input type="text" id="search" placeholder="Search...">
+            <select id="filterCategory">
+                <option value="">All Categories</option>
+            </select>
+            <select id="filterPriority">
+                <option value="">All Priorities</option>
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+            <select id="filterStatus">
+                <option value="">All Status</option>
+                <option value="completed">Completed</option>
+                <option value="pending">Pending</option>
+            </select>
+        </div>
+
+        <div class="task-list" id="taskList"></div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
