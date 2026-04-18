@@ -1,8 +1,6 @@
-# Advanced-Task-Manager
-
+Advanced-Task-Manager
 A fully responsive task management web app built with HTML, CSS, and JavaScript.
-
-## 🚀 Features
+Features
 - Add / Edit / Delete tasks
 - Categories
 - Due dates
@@ -11,11 +9,9 @@ A fully responsive task management web app built with HTML, CSS, and JavaScript.
 - LocalStorage persistence
 - Dark / Light mode
 - Fully responsive design
-
-## 🛠 Tech Stack
+Tech Stack
 - HTML5
 - CSS3
-- Vanilla JavaScript
-
-## 🌍 Live Demo
+- JavaScript
+Live Demo
 https://ManishB4488.github.io/Advanced-Task-Manager/
