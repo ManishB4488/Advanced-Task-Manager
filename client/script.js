@@ -1,6 +1,6 @@
 // Point this to your deployed backend URL once deployed.
 // For local development, keep it as http://localhost:5000
-const API_URL = "http://localhost:5000/api/tasks";
+const API_URL = "https://advanced-task-manager-ft69.onrender.com/api/tasks";;
 
 let tasks = [];
 const form = document.getElementById("taskForm");
